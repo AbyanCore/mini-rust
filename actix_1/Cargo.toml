@@ -1,0 +1,11 @@
+[package]
+name = "actix_1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix = "0.13.5"
+actix-web = "4.8.0"
+actix-web-actors = "4.3.0"
+serde = { version = "1.0.203", features = ["derive"] }
+uuid = { version = "1.9.1", features = ["v4"] }
